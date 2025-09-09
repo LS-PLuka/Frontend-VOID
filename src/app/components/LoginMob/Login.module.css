@@ -1,0 +1,28 @@
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.obs {
+    color: var(--Text-stranger);
+    font-family: 'Poppins', sans-serif;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.quadrado1 {
+    border-radius: 5px;
+    background: var(--Violeta);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    display: flex;
+    justify-content: center; align-items: center;
+    color: var(--Background-Color);
+    gap: 15px;
+    font-family: 'Poppins', sans-serif;
+}
