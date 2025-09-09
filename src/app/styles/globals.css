@@ -1,0 +1,51 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* font-family: "Bebas Neue", sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Poppins', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+/* font-family: 'Merriweather', serif; */
+
+:Root {
+    /*Cores de fundo*/
+    --Background-Color: #FFFFFF;
+    --Products-Color: #F1F1F1;
+    --Background-Back: #E5E5E5;
+    --Background-Text: #D9D9D9;
+    /*Cores príncipais*/
+    --Marinho-Light: #1D2D44;
+    --Oceano-Dark: #3E5C76;
+    --Violeta: #5D57FD;
+    --Blue: #4493F9; 
+    --Green: #00991C;
+    /*Cores de texto*/
+    --Text-Color: #000000;
+    --Text-Weak: #525252;
+    --Text-stranger: #2D2D2D;
+    --Text-Color-Gold: #F0EBD8;
+
+    /*Gradiente index*/
+    --Gradient-Index: linear-gradient(
+    to bottom,
+    rgba(6, 11, 18, 0) 0%,      
+    rgba(6, 11, 18, 0.25) 25%,  
+    rgba(6, 11, 18, 0.5) 50%,   
+    rgba(6, 11, 18, 1) 100%    
+
+    /*Fontes*/
+    --titulo: 'Bebas Neue', sans-serif;
+    --text: 'Poppins', sans-serif;
+    --subtittle: 'Merriweather', serif;
+    /*  font-family: "Merriweather", serif;
+        font-optical-sizing: auto;
+        font-weight: 300;
+        font-style: italic;
+        font-variation-settings:
+        "wdth" 100;*/
+    /*weight*/
+    --peso-fonte: 400;
+    --leve-fonte: 300;
+  );
+}
